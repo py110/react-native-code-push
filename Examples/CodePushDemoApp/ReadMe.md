@@ -1,7 +1,9 @@
 如何使用这个服务
+
 1 先安装 code-push
 
 2 然后增加你需要更新的app ,这里也 demo 为例
+
 code-push app add demo
 
 3 打包你需要更新的资源文件,注意不同平台不同入口文件
