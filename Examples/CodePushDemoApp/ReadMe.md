@@ -102,7 +102,6 @@ https://codepush.azurewebsites.net/updateCheck?deploymentKey=uRv5z7A2FgT-es1PByK
  appVersion:2.6.0, deploymentKey:uRv5z7A2FgT-es1PByKUU1N58kXeVkTVXb7vx ]
  
  
- 
    DEFAULT_UPDATE_DIALOG: {
      appendReleaseDescription: false,
      descriptionPrefix: " Description: ",
@@ -117,5 +116,6 @@ https://codepush.azurewebsites.net/updateCheck?deploymentKey=uRv5z7A2FgT-es1PByK
  
  如果升级不执行 检查下代码 CodePush.m 中的
  
-  if ([binaryDate compare:packageDate] == NSOrderedAscending && [binaryAppVersion isEqualToString:packageAppVersion]) {
+if ([binaryDate compare:packageDate] == NSOrderedAscending && [binaryAppVersion isEqualToString:packageAppVersion]) 
  
+看看升级版本是否一致,文件日期等等
