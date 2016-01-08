@@ -70,7 +70,7 @@ static NSString *const PackageIsPendingKey = @"isPending";
     
     NSString *packageAppVersion = [currentPackageMetadata objectForKey:@"appVersion"];
     
-    if ([binaryDate compare:packageDate] == NSOrderedAscending && [binaryAppVersion isEqualToString:packageAppVersion]) {
+    if (/*[binaryDate compare:packageDate] == NSOrderedAscending && */ [binaryAppVersion isEqualToString:packageAppVersion]) {
         // Return package file because it is newer than the app store binary's JS bundle
         NSURL *packageUrl = [[NSURL alloc] initFileURLWithPath:packageFile];
         NSLog(logMessageFormat, packageUrl);

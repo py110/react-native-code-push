@@ -20,7 +20,7 @@ let CodePushDemoApp = React.createClass({
       return await CodePush.sync(
         { 
           updateDialog: true,
-          installMode: CodePush.InstallMode.ON_NEXT_RESUME
+          installMode: CodePush.InstallMode.IMMEDIATE
         }, 
         (syncStatus) => {
           switch(syncStatus) {
@@ -109,7 +109,7 @@ let CodePushDemoApp = React.createClass({
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to CodePush!
+          又要加班开会了,abcdefghijjkokokoko
         </Text>
         {syncButton}
         {syncView}
