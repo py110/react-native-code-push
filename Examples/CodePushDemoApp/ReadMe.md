@@ -70,10 +70,12 @@ appVersion:2.6.0,
 
 deploymentKey:5911ad36-c6a6-463f-8448-6d9755be740c, 
 
-action:updateCheck, format:null, controller:appCheck]
+]
 
 自定义服务接口实现
-
+/**
+*
+*/
  def updateCheck() {
         def data = [:]
         println params.toString()
