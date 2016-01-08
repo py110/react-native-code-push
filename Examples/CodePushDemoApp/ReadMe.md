@@ -60,7 +60,17 @@ https://codepush.azurewebsites.net/updateCheck?deploymentKey=uRv5z7A2FgT-es1PByK
 
 的参数样式如下:
 
-[isCompanion:, packageHash:d7b7b4e295a0de6df3b0b1788c83cdab3c0c5d27c13ad23d7b6d09c84390f80e,
+[
+
+isCompanion:, 
+
+packageHash:4a51d2b06157c2b2e159cd168c5e4eae, 
+
+appVersion:2.6.0, 
+
+deploymentKey:5911ad36-c6a6-463f-8448-6d9755be740c, 
+
+action:updateCheck, format:null, controller:appCheck]
 
 自定义服务接口实现
 
